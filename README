@@ -1,0 +1,97 @@
+php-Log
+------------------------------------------
+The PHP Log package provides an abstracted logging framework. It 
+includes output handlers for log files, databases, syslog, email, 
+Firebug, and the console. It also provides composite and 
+subject-observer logging mechanisms.
+
+Runtime requirements:
+  php-5.2.5-1
+  php-MDB2-2.4.1-1
+  php-pear-5.2.5-1
+
+Canonical website:
+  http://pear.php.net/package/Log/
+
+Canonical download:
+  http://pear.php.net/get/Log
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-Log-1.10.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-Log-1.10.0-X.cygport all
+
+This will create:
+  /usr/src/php-Log-1.10.0-X-src.tar.bz2
+  /usr/src/php-Log-1.10.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/pear/.registry/log.reg
+  /usr/share/pear/Log.php
+  /usr/share/pear/Log/composite.php
+  /usr/share/pear/Log/console.php
+  /usr/share/pear/Log/daemon.php
+  /usr/share/pear/Log/display.php
+  /usr/share/pear/Log/error_log.php
+  /usr/share/pear/Log/file.php
+  /usr/share/pear/Log/firebug.php
+  /usr/share/pear/Log/mail.php
+  /usr/share/pear/Log/mcal.php
+  /usr/share/pear/Log/mdb2.php
+  /usr/share/pear/Log/null.php
+  /usr/share/pear/Log/observer.php
+  /usr/share/pear/Log/sql.php
+  /usr/share/pear/Log/sqlite.php
+  /usr/share/pear/Log/syslog.php
+  /usr/share/pear/Log/win.php
+  /usr/share/pear/data/Log/misc/log.sql
+  /usr/share/pear/doc/Log/docs/guide.txt
+  /usr/share/pear/doc/Log/examples/composite.php
+  /usr/share/pear/doc/Log/examples/console.php
+  /usr/share/pear/doc/Log/examples/display.php
+  /usr/share/pear/doc/Log/examples/error_log.php
+  /usr/share/pear/doc/Log/examples/file.php
+  /usr/share/pear/doc/Log/examples/firebug.php
+  /usr/share/pear/doc/Log/examples/mail.php
+  /usr/share/pear/doc/Log/examples/null.php
+  /usr/share/pear/doc/Log/examples/observer_mail.php
+  /usr/share/pear/doc/Log/examples/pear_error_handler.php
+  /usr/share/pear/doc/Log/examples/php_error_handler.php
+  /usr/share/pear/doc/Log/examples/sql.php
+  /usr/share/pear/doc/Log/examples/sqlite.php
+  /usr/share/pear/doc/Log/examples/syslog.php
+  /usr/share/pear/doc/Log/examples/win.php
+  /usr/share/pear/test/Log/tests/composite.phpt
+  /usr/share/pear/test/Log/tests/console.phpt
+  /usr/share/pear/test/Log/tests/display.phpt
+  /usr/share/pear/test/Log/tests/error_log.phpt
+  /usr/share/pear/test/Log/tests/extract-zend1.phpt
+  /usr/share/pear/test/Log/tests/extract-zend2.0.phpt
+  /usr/share/pear/test/Log/tests/extract-zend2.2.phpt
+  /usr/share/pear/test/Log/tests/factory.phpt
+  /usr/share/pear/test/Log/tests/file.phpt
+  /usr/share/pear/test/Log/tests/firebug.phpt
+  /usr/share/pear/test/Log/tests/levels.phpt
+  /usr/share/pear/test/Log/tests/null.phpt
+  /usr/share/pear/test/Log/tests/priority.phpt
+  /usr/share/pear/test/Log/tests/singleton.phpt
+  /usr/share/pear/test/Log/tests/sql_ident.phpt
+  /usr/share/pear/test/Log/tests/sqlite.phpt
+
+------------------
+
+Port Notes:
+
+----- version 1.10.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

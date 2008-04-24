@@ -1,0 +1,7 @@
+category: PHP
+requires: php php-pear php-Log
+sdesc: "PHP logging framework"
+ldesc: "The PHP Log package provides an abstracted logging framework. It 
+includes output handlers for log files, databases, syslog, email, 
+Firebug, and the console. It also provides composite and 
+subject-observer logging mechanisms."
